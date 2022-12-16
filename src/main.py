@@ -142,7 +142,7 @@ import sys
 
 import hou
 
-message = "Hello from the starter kit app for Houdini!"
+message = u"Hello from the starter kit app for Houdini!"
 
 def main():
     u"""The main function to execute the entire project/application.
