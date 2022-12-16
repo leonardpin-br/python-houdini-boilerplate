@@ -44,6 +44,7 @@ Example:
         '''
 
         import mystuff
+        reload(mystuff)
 
 Example:
     How a bridge file can be written::
@@ -141,11 +142,12 @@ import sys
 
 import hou
 
+message = "Hello from the starter kit app for Houdini!"
+
 def main():
     u"""The main function to execute the entire project/application.
     """
-    print("Hello from the App for Houdini Starter Kit!")
-    hou.ui.displayMessage("Hello from the App for Houdini Starter Kit!")
+    print(message)
 
 
 main()
